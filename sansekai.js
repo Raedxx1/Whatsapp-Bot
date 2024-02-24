@@ -2,7 +2,7 @@ const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, g
 const fs = require('fs')
 const util = require('util')
 const chalk = require('chalk')
-const { Configuration, OpenAIApi } = require("openai")
+const { Configuration, OpenAIApi } = require("keyopenai")
 let setting = require('./key.json')
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
