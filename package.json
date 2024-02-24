@@ -3,7 +3,7 @@
   "version": "1",
   "description": "WHATSAPP CHATGPT BOT, USING OPENAI",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "common.js",
   "scripts": {
     "start": "node index.js"
   },
